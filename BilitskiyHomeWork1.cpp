@@ -14,7 +14,7 @@ int main() {
   std::cout << "Введите значение c: ";
   std::cin >> c;
 
-  if ((b * b - 4 * a * c) >= 0) { //Если дискриминант больше или равен 0
+  if ((b * b - 4 * a * c) >= 0) { 
 
     x = (-1 * b + sqrt(b * b - 4 * a * c)) / (2 * a);
     std::cout << "x1 = " << x << std::endl;
